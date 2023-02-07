@@ -1,0 +1,106 @@
+* {
+    font-family: 'Poppins';
+}
+
+.cabecalho nav {
+    margin: 10px;
+    width: 80wh;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho nav div {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.cabecalho nav div:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 30px;
+}
+
+.login {
+    font-size: 30px;
+    margin: auto;
+    border: solid 1px rgb(65, 23, 180);
+    border-radius: 10px;
+    width: 50%;
+    padding: 15px;
+    background-color: rgba(48, 48, 48, 0.473);
+}
+
+.login #loginInicial {
+    background-color: rgb(48, 48, 48, 0);
+    display: block;
+    border: none;
+    border-bottom: solid 1px;
+    text-align: center;
+}
+
+.login .caixaLogin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .senhaUsuario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login #senhaUser {
+    border: none;
+    background-color: rgba(48, 48, 48, 0);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+
+}
+
+.login .botoesExtra {
+    display: flex;
+    flex-direction: column;
+}
+
+.login #confirmacao {
+    background-color: rgba(255, 0, 0, 0.678);
+    padding:0px 30%;
+    font-size: 18px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.login #resetInfo {
+    background-color: rgba(0, 0, 255, 0.514);
+    padding: 0px 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login #recuperarSenha {
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.login .botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login #loginInicial:hover{
+    transition:0.4s;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+}
+
+.login #senhaUser:hover{
+transition:0.2s;
+background-color: rgba(0, 0, 0, 0.274);
+border-radius: 5px;
+}
